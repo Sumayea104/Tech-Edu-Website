@@ -110,8 +110,8 @@
                             <div class="col-lg-6">
                                 <div class="card mb-3" style="max-width:480px;">
                                     <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                                        <div class= "col-md-4">
+                                            <img src="images/course/course-1.png" class="img-fluid w-100 rounded-start" alt="...">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
@@ -128,7 +128,7 @@
                                 <div class="card mb-3" style="max-width: 480px;">
                                     <div class="row g-0">
                                         <div class="col-md-4">
-                                            <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                                            <img src="images/course/course-2.png" class="img-fluid w-100 rounded-start" alt="...">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
@@ -144,7 +144,7 @@
                                 <div class="card mb-3" style="max-width: 480px;">
                                     <div class="row g-0">
                                         <div class="col-md-4">
-                                            <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                                            <img src="images/course/course-3.png" class="img-fluid w-100 rounded-start" alt="...">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
@@ -160,7 +160,7 @@
                                 <div class="card mb-3" style="max-width: 480px;">
                                     <div class="row g-0">
                                         <div class="col-md-4">
-                                            <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                                            <img src="images/course/course-4.png" class="img-fluid w-100 rounded-start" alt="...">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
@@ -176,7 +176,7 @@
                                 <div class="card mb-3" style="max-width: 480px;">
                                     <div class="row g-0">
                                         <div class="col-md-4">
-                                            <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                                            <img src="images/course/course-5.png" class="img-fluid w-100 rounded-start" alt="...">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
@@ -192,7 +192,7 @@
                                 <div class="card mb-3" style="max-width: 480px;">
                                     <div class="row g-3">
                                         <div class="col-md-4">
-                                            <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                                            <img src="images/course/course-6.png" class="img-fluid w-100  rounded-start" alt="...">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
@@ -265,7 +265,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about text-center w-100% h-100%"><img src="images/cover/about.jpg" alt=""></div>
+            <div class="col-md-6 about text-center "><img src="images/cover/about.jpg" alt=""></div>
             
         </div>
     </div>
@@ -273,21 +273,40 @@
 
 
 
-<!-- bonous -->
+<!-- bonus -->
 <section class="">
-    <div class="container d-flex justify-content-evenly bg-info mt-5 p-4">
+    <div class="container d-flex flex justify-content-evenly bg-info mt-5 p-4">
         <div>
             <h1>Ready to Join?</h1>
-            <p>Tech-Edu is waiting for you. we are wishing your bright future</p>
+            <p>Tech-Edu is waiting for you. we are wishing your bright future.</p>
         </div>
-        <div">
-            
-            <button class="btn btn-primary me-md-2" type="button">Register Now</button>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <button class="btn btn-primary data-bs-toggle="modal" data-bs-target="#reg-modal" me-md-2" type="button">Register Now</button>
+            </div>
         </div>
     </div>
 </section>
-<section>
-    <div class="container d-block visually-hidden{576px 768px} mt-5">
+<!-- modal  -->
+<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title" id="modal-title">
+                Get the Latest Updates
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button></div>
+            <div class="modal-body">
+                <h1>Welcome</h1>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary"> Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal end  -->
+<section class="d-none d-md-block">
+    <div class="container mt-5">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <h1>Trusted by Over 800+ companies</h1>
         </div>
