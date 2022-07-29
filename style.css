@@ -48,7 +48,13 @@
 
 
 
-
+.companies{
+    text-decoration: none;
+    justify-content: space-around;
+}
+.companies li{
+    list-style: none;
+}
 
 
 
